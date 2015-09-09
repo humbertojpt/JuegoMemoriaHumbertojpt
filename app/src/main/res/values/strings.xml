@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MemoryTime</string>
+    <string name="Reiniciar">Reiniciar</string>
+    <string name="Stop">Pausar Musica</string>
+    <string name="title_activity_historial">Historial</string>
+    <string name="action_settings">Settings</string>
+    <string name="principal">Regresar</string>
+</resources>

@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/restartapp" android:title="@string/Reiniciar"
+        android:orderInCategory="100"  app:showAsAction="never" />
+    <item android:id="@+id/stopMusic" android:title="@string/Stop"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/historial" android:title="@string/title_activity_historial"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/backprincipal" android:title="@string/principal"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/ayuda" android:title="Ayuda"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

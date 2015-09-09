@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="12dip"
+    android:background="#54524e"
+    tools:context=".DialogActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BIENVENIDO a MEMORYTIME"
+        android:gravity="center_horizontal"
+        android:paddingBottom="12dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nivel FACIL: 8 parejas con maximo 25 turnos
+       "
+        android:id="@+id/textView2"
+        android:textColor="#00ecff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nivel INTERMEDIO: 12 parejas con maximo 60 turnos"
+        android:id="@+id/textView5"
+        android:textColor="#97e9c6"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nivel DIFICIL: 8 parejas con maximo 20 turnos y tiempo maximo"
+        android:id="@+id/textView6"
+        android:textColor="#007aff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boton de ayuda, historial y pausa de musica en cada nivel, ademas de regresar"
+        android:id="@+id/textView7" />
+
+    <Button
+        android:id="@+id/btn_finish_dialog"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:text="Continuar"
+        android:layout_gravity="center_horizontal"
+        android:onClick="finishDialog"
+        android:textColor="#ffffff"
+        android:background="#959200"
+        android:padding="12dp" />
+</LinearLayout>
+

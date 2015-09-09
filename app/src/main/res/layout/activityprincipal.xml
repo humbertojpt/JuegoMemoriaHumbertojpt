@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#353535">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/memoria"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.95"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escoja el nivel de dificultad:"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="5dp" />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FACIL"
+                android:onClick="facil"
+                android:id="@+id/button2"
+                android:background="#0013ff"
+                android:layout_weight="1"
+                android:textColor="#ffffff"
+                android:layout_span="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INTERMEDIO"
+                android:onClick="intermedio"
+                android:id="@+id/button"
+                android:layout_gravity="center_horizontal"
+                android:background="#0009b5"
+                android:layout_weight="1"
+                android:textColor="#ffffff" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DIFICIL"
+                android:onClick="dificil"
+                android:id="@+id/button3"
+                android:background="#070079"
+                android:layout_weight="1"
+                android:textColor="#ffffff" />
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>
